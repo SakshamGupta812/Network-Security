@@ -1,0 +1,130 @@
+[ 2026-10-14 19:33:32,172 ] 21 root - INFO - Initiate the data ingestion
+[ 2026-10-14 19:33:54,791 ] 66 root - INFO - Performed train test split on the dataframe
+[ 2026-10-14 19:33:54,791 ] 68 root - INFO - Excited split_data_as_train_test method  of Data_Ingestion class
+[ 2026-10-14 19:33:54,791 ] 74 root - INFO - Exporting train and test file path.
+[ 2026-10-14 19:33:55,252 ] 84 root - INFO - Exported train and test file path.
+[ 2026-10-14 19:33:55,252 ] 23 root - INFO - Data Initiated Completed!
+[ 2026-10-14 19:33:55,267 ] 27 root - INFO - Initiate the data validation
+[ 2026-10-14 19:33:55,561 ] 235 root - INFO - Training dataset shape: (18288, 89)
+[ 2026-10-14 19:33:55,561 ] 239 root - INFO - Testing dataset shape: (4572, 89)
+[ 2026-10-14 19:33:55,567 ] 74 root - INFO - Expected number of columns: 89
+[ 2026-10-14 19:33:55,567 ] 78 root - INFO - Actual number of columns: 89
+[ 2026-10-14 19:33:55,567 ] 96 root - INFO - Column validation successful.
+[ 2026-10-14 19:33:55,567 ] 74 root - INFO - Expected number of columns: 89
+[ 2026-10-14 19:33:55,567 ] 78 root - INFO - Actual number of columns: 89
+[ 2026-10-14 19:33:55,567 ] 96 root - INFO - Column validation successful.
+[ 2026-10-14 19:33:55,567 ] 255 root - INFO - Training and testing column validation passed.
+[ 2026-10-14 19:33:55,568 ] 185 root - INFO - Column: length_url | P-value: 0.593630 | Drift detected: False
+[ 2026-10-14 19:33:55,572 ] 185 root - INFO - Column: length_hostname | P-value: 0.994622 | Drift detected: False
+[ 2026-10-14 19:33:55,572 ] 185 root - INFO - Column: ip | P-value: 0.998899 | Drift detected: False
+[ 2026-10-14 19:33:55,572 ] 185 root - INFO - Column: nb_dots | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,582 ] 185 root - INFO - Column: nb_hyphens | P-value: 0.972435 | Drift detected: False
+[ 2026-10-14 19:33:55,584 ] 185 root - INFO - Column: nb_at | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,584 ] 185 root - INFO - Column: nb_qm | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,584 ] 185 root - INFO - Column: nb_and | P-value: 0.999926 | Drift detected: False
+[ 2026-10-14 19:33:55,591 ] 185 root - INFO - Column: nb_or | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,591 ] 185 root - INFO - Column: nb_eq | P-value: 0.999999 | Drift detected: False
+[ 2026-10-14 19:33:55,597 ] 185 root - INFO - Column: nb_underscore | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,597 ] 185 root - INFO - Column: nb_tilde | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,601 ] 185 root - INFO - Column: nb_percent | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,605 ] 185 root - INFO - Column: nb_slash | P-value: 0.933909 | Drift detected: False
+[ 2026-10-14 19:33:55,605 ] 185 root - INFO - Column: nb_star | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,605 ] 185 root - INFO - Column: nb_colon | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,612 ] 185 root - INFO - Column: nb_comma | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,612 ] 185 root - INFO - Column: nb_semicolumn | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,617 ] 185 root - INFO - Column: nb_dollar | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,621 ] 185 root - INFO - Column: nb_space | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,621 ] 185 root - INFO - Column: nb_www | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,627 ] 185 root - INFO - Column: nb_com | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,630 ] 185 root - INFO - Column: nb_dslash | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,633 ] 185 root - INFO - Column: http_in_path | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,636 ] 185 root - INFO - Column: https_token | P-value: 0.999639 | Drift detected: False
+[ 2026-10-14 19:33:55,636 ] 185 root - INFO - Column: ratio_digits_url | P-value: 0.921086 | Drift detected: False
+[ 2026-10-14 19:33:55,642 ] 185 root - INFO - Column: ratio_digits_host | P-value: 0.999941 | Drift detected: False
+[ 2026-10-14 19:33:55,642 ] 185 root - INFO - Column: punycode | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,642 ] 185 root - INFO - Column: port | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,647 ] 185 root - INFO - Column: tld_in_path | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,651 ] 185 root - INFO - Column: tld_in_subdomain | P-value: 0.999993 | Drift detected: False
+[ 2026-10-14 19:33:55,654 ] 185 root - INFO - Column: abnormal_subdomain | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,658 ] 185 root - INFO - Column: nb_subdomains | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,662 ] 185 root - INFO - Column: prefix_suffix | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,665 ] 185 root - INFO - Column: random_domain | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,665 ] 185 root - INFO - Column: shortening_service | P-value: 0.999941 | Drift detected: False
+[ 2026-10-14 19:33:55,665 ] 185 root - INFO - Column: path_extension | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,672 ] 185 root - INFO - Column: nb_redirection | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,678 ] 185 root - INFO - Column: nb_external_redirection | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,682 ] 185 root - INFO - Column: length_words_raw | P-value: 0.997236 | Drift detected: False
+[ 2026-10-14 19:33:55,686 ] 185 root - INFO - Column: char_repeat | P-value: 0.917686 | Drift detected: False
+[ 2026-10-14 19:33:55,688 ] 185 root - INFO - Column: shortest_words_raw | P-value: 0.721316 | Drift detected: False
+[ 2026-10-14 19:33:55,690 ] 185 root - INFO - Column: shortest_word_host | P-value: 0.970620 | Drift detected: False
+[ 2026-10-14 19:33:55,691 ] 185 root - INFO - Column: shortest_word_path | P-value: 0.992762 | Drift detected: False
+[ 2026-10-14 19:33:55,696 ] 185 root - INFO - Column: longest_words_raw | P-value: 0.660363 | Drift detected: False
+[ 2026-10-14 19:33:55,698 ] 185 root - INFO - Column: longest_word_host | P-value: 0.879644 | Drift detected: False
+[ 2026-10-14 19:33:55,702 ] 185 root - INFO - Column: longest_word_path | P-value: 0.986614 | Drift detected: False
+[ 2026-10-14 19:33:55,705 ] 185 root - INFO - Column: avg_words_raw | P-value: 0.987665 | Drift detected: False
+[ 2026-10-14 19:33:55,705 ] 185 root - INFO - Column: avg_word_host | P-value: 0.883763 | Drift detected: False
+[ 2026-10-14 19:33:55,712 ] 185 root - INFO - Column: avg_word_path | P-value: 0.875459 | Drift detected: False
+[ 2026-10-14 19:33:55,716 ] 185 root - INFO - Column: phish_hints | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,721 ] 185 root - INFO - Column: domain_in_brand | P-value: 0.999999 | Drift detected: False
+[ 2026-10-14 19:33:55,724 ] 185 root - INFO - Column: brand_in_subdomain | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,728 ] 185 root - INFO - Column: brand_in_path | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,731 ] 185 root - INFO - Column: suspecious_tld | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,731 ] 185 root - INFO - Column: statistical_report | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,741 ] 185 root - INFO - Column: nb_hyperlinks | P-value: 0.743077 | Drift detected: False
+[ 2026-10-14 19:33:55,743 ] 185 root - INFO - Column: ratio_intHyperlinks | P-value: 0.045522 | Drift detected: True
+[ 2026-10-14 19:33:55,743 ] 185 root - INFO - Column: ratio_extHyperlinks | P-value: 0.481480 | Drift detected: False
+[ 2026-10-14 19:33:55,752 ] 185 root - INFO - Column: ratio_nullHyperlinks | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,758 ] 185 root - INFO - Column: nb_extCSS | P-value: 0.999954 | Drift detected: False
+[ 2026-10-14 19:33:55,760 ] 185 root - INFO - Column: ratio_intRedirection | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,762 ] 185 root - INFO - Column: ratio_extRedirection | P-value: 0.996510 | Drift detected: False
+[ 2026-10-14 19:33:55,765 ] 185 root - INFO - Column: ratio_intErrors | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,767 ] 185 root - INFO - Column: ratio_extErrors | P-value: 0.362900 | Drift detected: False
+[ 2026-10-14 19:33:55,772 ] 185 root - INFO - Column: login_form | P-value: 0.999972 | Drift detected: False
+[ 2026-10-14 19:33:55,775 ] 185 root - INFO - Column: external_favicon | P-value: 0.994048 | Drift detected: False
+[ 2026-10-14 19:33:55,779 ] 185 root - INFO - Column: links_in_tags | P-value: 0.588118 | Drift detected: False
+[ 2026-10-14 19:33:55,782 ] 185 root - INFO - Column: submit_email | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,785 ] 185 root - INFO - Column: ratio_intMedia | P-value: 0.743077 | Drift detected: False
+[ 2026-10-14 19:33:55,785 ] 185 root - INFO - Column: ratio_extMedia | P-value: 0.955729 | Drift detected: False
+[ 2026-10-14 19:33:55,785 ] 185 root - INFO - Column: sfh | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,792 ] 185 root - INFO - Column: iframe | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,792 ] 185 root - INFO - Column: popup_window | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,802 ] 185 root - INFO - Column: safe_anchor | P-value: 0.491752 | Drift detected: False
+[ 2026-10-14 19:33:55,802 ] 185 root - INFO - Column: onmouseover | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,806 ] 185 root - INFO - Column: right_clic | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,806 ] 185 root - INFO - Column: empty_title | P-value: 0.999983 | Drift detected: False
+[ 2026-10-14 19:33:55,812 ] 185 root - INFO - Column: domain_in_title | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,816 ] 185 root - INFO - Column: domain_with_copyright | P-value: 0.643627 | Drift detected: False
+[ 2026-10-14 19:33:55,816 ] 185 root - INFO - Column: whois_registered_domain | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,821 ] 185 root - INFO - Column: domain_registration_length | P-value: 0.769758 | Drift detected: False
+[ 2026-10-14 19:33:55,821 ] 185 root - INFO - Column: domain_age | P-value: 0.436601 | Drift detected: False
+[ 2026-10-14 19:33:55,827 ] 185 root - INFO - Column: web_traffic | P-value: 0.143900 | Drift detected: False
+[ 2026-10-14 19:33:55,831 ] 185 root - INFO - Column: dns_record | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,833 ] 185 root - INFO - Column: google_index | P-value: 1.000000 | Drift detected: False
+[ 2026-10-14 19:33:55,837 ] 185 root - INFO - Column: page_rank | P-value: 0.408007 | Drift detected: False
+[ 2026-10-14 19:33:55,852 ] 148 root - WARNING - Skipping 'status': no valid numerical observations in one dataset.
+[ 2026-10-14 19:33:55,861 ] 207 root - INFO - Drift report saved: Artifacts\10_14_2026_19_33_28\data_validation\drift_report\report.yaml
+[ 2026-10-14 19:33:56,317 ] 291 root - INFO - Validated training data saved: Artifacts\10_14_2026_19_33_28\data_validation\validated\train.csv
+[ 2026-10-14 19:33:56,317 ] 295 root - INFO - Validated testing data saved: Artifacts\10_14_2026_19_33_28\data_validation\validated\test.csv
+[ 2026-10-14 19:33:56,317 ] 311 root - INFO - Data validation completed: DataValidationArtifact(validation_status=False, valid_train_file_path='Artifacts\\10_14_2026_19_33_28\\data_validation\\validated\\train.csv', valid_test_file_path='Artifacts\\10_14_2026_19_33_28\\data_validation\\validated\\test.csv', invalid_train_file_path=None, invalid_test_file_path=None, drift_report_file_path='Artifacts\\10_14_2026_19_33_28\\data_validation\\drift_report\\report.yaml')
+[ 2026-10-14 19:33:56,321 ] 29 root - INFO - Data Validation Completed
+[ 2026-10-14 19:33:56,321 ] 32 root - INFO - Data Transformation started
+[ 2026-10-14 19:33:56,328 ] 77 root - INFO - Starting data transformation
+[ 2026-10-14 19:33:56,627 ] 88 root - INFO - Training data shape: (18288, 89)
+[ 2026-10-14 19:33:56,627 ] 89 root - INFO - Testing data shape: (4572, 89)
+[ 2026-10-14 19:33:56,712 ] 57 root - INFO - Initializing KNNImputer
+[ 2026-10-14 19:33:56,997 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-14 19:33:57,015 ] 51 root - INFO - Excited the save_object method of MinUtils class
+[ 2026-10-14 19:33:57,019 ] 270 root - INFO - Transformed training data shape: (18288, 88)
+[ 2026-10-14 19:33:57,019 ] 274 root - INFO - Transformed testing data shape: (4572, 88)
+[ 2026-10-14 19:33:57,019 ] 291 root - INFO - Data transformation completed successfully
+[ 2026-10-14 19:33:57,054 ] 36 root - INFO - Data Transformation Completed!
+[ 2026-10-14 19:33:57,054 ] 38 root - INFO - Model Training Started!
+[ 2026-10-14 19:34:28,262 ] 118 root - INFO - Model: Random Forest, Best Parameters: {'n_estimators': 128}, Accuracy: 0.9956255468066492
+[ 2026-10-14 19:34:30,286 ] 118 root - INFO - Model: Decision Tree, Best Parameters: {'criterion': 'entropy'}, Accuracy: 0.9912510936132983
+[ 2026-10-14 19:34:42,160 ] 118 root - INFO - Model: Gradient Boosting, Best Parameters: {'learning_rate': 0.1, 'n_estimators': 64, 'subsample': 0.8}, Accuracy: 0.9595363079615048
+[ 2026-10-14 19:34:43,094 ] 118 root - INFO - Model: Logistic Regression, Best Parameters: {}, Accuracy: 0.9540682414698163
+[ 2026-10-14 19:36:50,514 ] 118 root - INFO - Model: Adaboost, Best Parameters: {'learning_rate': 0.5, 'n_estimators': 256}, Accuracy: 0.9540682414698163
+[ 2026-10-14 19:37:06,536 ] 47 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-10-14 19:37:06,568 ] 51 root - INFO - Excited the save_object method of MinUtils class
+[ 2026-10-14 19:37:06,568 ] 123 root - INFO - Model trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\10_14_2026_19_33_28\\model_trainer\\trained_model\\model.pkl', train_metric_artifact={'f1_score': 1.0, 'precision_score': 1.0, 'recall_score': 1.0}, test_metric_artifact={'f1_score': 0.9956331877729258, 'precision_score': 0.9973753280839895, 'recall_score': 0.993897122929381})
+[ 2026-10-14 19:37:06,633 ] 43 root - INFO - Model Training artifact created

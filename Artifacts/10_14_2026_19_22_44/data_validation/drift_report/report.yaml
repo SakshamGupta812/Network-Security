@@ -1,0 +1,265 @@
+abnormal_subdomain:
+  drift_status: false
+  p_value: 1.0
+avg_word_host:
+  drift_status: false
+  p_value: 0.984325058575513
+avg_word_path:
+  drift_status: false
+  p_value: 0.9866142306094711
+avg_words_raw:
+  drift_status: false
+  p_value: 0.7644762609730505
+brand_in_path:
+  drift_status: false
+  p_value: 1.0
+brand_in_subdomain:
+  drift_status: false
+  p_value: 1.0
+char_repeat:
+  drift_status: false
+  p_value: 0.1036503578348208
+dns_record:
+  drift_status: false
+  p_value: 1.0
+domain_age:
+  drift_status: false
+  p_value: 0.6046883255804898
+domain_in_brand:
+  drift_status: false
+  p_value: 0.999999989536432
+domain_in_title:
+  drift_status: false
+  p_value: 0.8157352978467695
+domain_registration_length:
+  drift_status: false
+  p_value: 0.40800672607149246
+domain_with_copyright:
+  drift_status: false
+  p_value: 0.3850447202364574
+empty_title:
+  drift_status: false
+  p_value: 0.999999989536432
+external_favicon:
+  drift_status: false
+  p_value: 1.0
+google_index:
+  drift_status: false
+  p_value: 1.0
+http_in_path:
+  drift_status: false
+  p_value: 1.0
+https_token:
+  drift_status: false
+  p_value: 0.693748453823646
+iframe:
+  drift_status: false
+  p_value: 1.0
+ip:
+  drift_status: false
+  p_value: 1.0
+length_hostname:
+  drift_status: false
+  p_value: 0.4763828529084576
+length_url:
+  drift_status: false
+  p_value: 0.9176862043114709
+length_words_raw:
+  drift_status: false
+  p_value: 0.9920466247657189
+links_in_tags:
+  drift_status: false
+  p_value: 0.6046883255804898
+login_form:
+  drift_status: false
+  p_value: 0.9975512475035658
+longest_word_host:
+  drift_status: false
+  p_value: 0.7430770958069733
+longest_word_path:
+  drift_status: false
+  p_value: 0.9774303165996121
+longest_words_raw:
+  drift_status: false
+  p_value: 0.9987300962591316
+nb_and:
+  drift_status: false
+  p_value: 0.9999999999999998
+nb_at:
+  drift_status: false
+  p_value: 1.0
+nb_colon:
+  drift_status: false
+  p_value: 1.0
+nb_com:
+  drift_status: false
+  p_value: 0.9994015968214908
+nb_comma:
+  drift_status: false
+  p_value: 1.0
+nb_dollar:
+  drift_status: false
+  p_value: 1.0
+nb_dots:
+  drift_status: false
+  p_value: 1.0
+nb_dslash:
+  drift_status: false
+  p_value: 1.0
+nb_eq:
+  drift_status: false
+  p_value: 1.0
+nb_extCSS:
+  drift_status: false
+  p_value: 0.9975512475035665
+nb_external_redirection:
+  drift_status: false
+  p_value: 1.0
+nb_hyperlinks:
+  drift_status: false
+  p_value: 0.14390027795313032
+nb_hyphens:
+  drift_status: false
+  p_value: 0.9999412094228313
+nb_or:
+  drift_status: false
+  p_value: 1.0
+nb_percent:
+  drift_status: false
+  p_value: 1.0
+nb_qm:
+  drift_status: false
+  p_value: 1.0
+nb_redirection:
+  drift_status: false
+  p_value: 1.0
+nb_semicolumn:
+  drift_status: false
+  p_value: 0.9999999821067792
+nb_slash:
+  drift_status: false
+  p_value: 0.9308215299547489
+nb_space:
+  drift_status: false
+  p_value: 1.0
+nb_star:
+  drift_status: false
+  p_value: 1.0
+nb_subdomains:
+  drift_status: false
+  p_value: 1.0
+nb_tilde:
+  drift_status: false
+  p_value: 1.0
+nb_underscore:
+  drift_status: false
+  p_value: 0.9985415142372065
+nb_www:
+  drift_status: false
+  p_value: 0.9999999981828479
+onmouseover:
+  drift_status: false
+  p_value: 1.0
+page_rank:
+  drift_status: false
+  p_value: 0.3895725027570638
+path_extension:
+  drift_status: false
+  p_value: 1.0
+phish_hints:
+  drift_status: false
+  p_value: 0.9912800788431905
+popup_window:
+  drift_status: false
+  p_value: 1.0
+port:
+  drift_status: false
+  p_value: 1.0
+prefix_suffix:
+  drift_status: false
+  p_value: 0.9687278566336149
+punycode:
+  drift_status: false
+  p_value: 1.0
+random_domain:
+  drift_status: false
+  p_value: 1.0
+ratio_digits_host:
+  drift_status: false
+  p_value: 0.9999999981828479
+ratio_digits_url:
+  drift_status: false
+  p_value: 0.9033312626127556
+ratio_extErrors:
+  drift_status: false
+  p_value: 0.2683797718508004
+ratio_extHyperlinks:
+  drift_status: false
+  p_value: 0.6157831559777666
+ratio_extMedia:
+  drift_status: false
+  p_value: 0.9803964611968252
+ratio_extRedirection:
+  drift_status: false
+  p_value: 0.21020669978428397
+ratio_intErrors:
+  drift_status: false
+  p_value: 1.0
+ratio_intHyperlinks:
+  drift_status: false
+  p_value: 0.7697579294001611
+ratio_intMedia:
+  drift_status: false
+  p_value: 0.5337984995700724
+ratio_intRedirection:
+  drift_status: false
+  p_value: 1.0
+ratio_nullHyperlinks:
+  drift_status: false
+  p_value: 1.0
+right_clic:
+  drift_status: false
+  p_value: 1.0
+safe_anchor:
+  drift_status: false
+  p_value: 0.2827700362326506
+sfh:
+  drift_status: false
+  p_value: 1.0
+shortening_service:
+  drift_status: false
+  p_value: 0.9999999209826805
+shortest_word_host:
+  drift_status: false
+  p_value: 0.9557294041439336
+shortest_word_path:
+  drift_status: false
+  p_value: 0.9987300962591315
+shortest_words_raw:
+  drift_status: false
+  p_value: 0.999999999752115
+statistical_report:
+  drift_status: false
+  p_value: 1.0
+status:
+  drift_status: null
+  message: Insufficient valid numerical data
+  p_value: null
+submit_email:
+  drift_status: false
+  p_value: 1.0
+suspecious_tld:
+  drift_status: false
+  p_value: 1.0
+tld_in_path:
+  drift_status: false
+  p_value: 1.0
+tld_in_subdomain:
+  drift_status: false
+  p_value: 1.0
+web_traffic:
+  drift_status: false
+  p_value: 0.693748453823646
+whois_registered_domain:
+  drift_status: false
+  p_value: 1.0

@@ -5,6 +5,7 @@ import pandas as pd
 
 from sklearn.impute import KNNImputer
 from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 
 from networksecurity.constant.training_pipeline import (
     TARGET_COLUMN,
@@ -61,7 +62,8 @@ class DataTransformation:
 
             processor = Pipeline(
                 steps=[
-                    ("imputer", imputer)
+                    ("imputer", imputer),
+                    ("scaler", StandardScaler())
                 ]
             )
 
