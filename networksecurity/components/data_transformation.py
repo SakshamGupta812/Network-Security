@@ -267,6 +267,8 @@ class DataTransformation:
                 preprocessor_object
             )
 
+            save_object("final_model/preprocessor.pkl", preprocessor_object)
+
             logging.info(
                 f"Transformed training data shape: {train_arr.shape}"
             )
